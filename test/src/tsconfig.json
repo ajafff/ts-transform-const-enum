@@ -3,6 +3,7 @@
     "outDir": "../out",
     "declaration": true,
     "plugins": [
+      { "transform": "../../dist" },
       { "transform": "../../dist", "afterDeclarations": true, "type": "raw" },
     ]
   }
