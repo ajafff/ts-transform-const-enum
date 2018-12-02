@@ -1,5 +1,5 @@
 {
-  "name": "ts-trassform-const-enum",
+  "name": "ts-transform-const-enum",
   "version": "0.0.1",
   "description": "TypeScript transformer to convert const enums to regular enums in declaration files",
   "main": "dist/index",

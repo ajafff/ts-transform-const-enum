@@ -84,7 +84,8 @@
       ],
       "only-arrow-functions": [
         true,
-        "allow-named-functions"
+        "allow-named-functions",
+        "allow-declarations"
       ],
       "prefer-const": [true, {"destructuring": "all"}],
       "prefer-for-of": true,
@@ -180,4 +181,3 @@
       "prefer-while": true
     }
   }
-  

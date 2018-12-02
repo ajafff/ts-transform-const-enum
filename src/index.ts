@@ -1,6 +1,6 @@
 import * as ts from 'typescript';
 
-const factory: ts.TransformerFactory<ts.Node> = (context) => (bundle) => {
+export const transformerFactory: ts.TransformerFactory<ts.Node> = (context) => (bundle) => {
     function visitor(node: ts.Node): ts.Node | undefined {
         switch (node.kind) {
             case ts.SyntaxKind.SourceFile:
@@ -18,4 +18,10 @@ const factory: ts.TransformerFactory<ts.Node> = (context) => (bundle) => {
     return ts.visitNode(bundle, visitor);
 };
 
-export default factory;
+export default function(context: ts.TransformationContext): ts.Transformer<ts.Node>;
+export default function(program: ts.Program, config?: Record<string, unknown>): ts.TransformerFactory<ts.Node>;
+export default function(programOrContext: ts.Program | ts.TransformationContext) {
+    if ('readEmitHelpers' in programOrContext)
+        return transformerFactory(programOrContext);
+    return transformerFactory;
+}
