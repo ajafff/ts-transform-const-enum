@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "../out",
+    "declaration": true,
+    "plugins": [
+      { "transform": "../../dist", "afterDeclarations": true, "type": "raw" },
+    ]
+  }
+}

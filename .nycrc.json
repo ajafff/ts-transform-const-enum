@@ -1,0 +1,16 @@
+{
+    "include": [
+      "dist/index.js"
+    ],
+    "extension": [
+      ".js"
+    ],
+    "reporter": [
+      "lcov",
+      "text-summary",
+      "html"
+    ],
+    "sourceMap": true,
+    "all": true,
+    "cache": true
+  }
