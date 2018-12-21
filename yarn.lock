@@ -100,45 +100,45 @@
     tslib "^1.8.1"
     tsutils "^3.1.0"
 
-"@fimbul/bifrost@^0.16.0":
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/@fimbul/bifrost/-/bifrost-0.16.0.tgz#543c724cebb07bc7850a7b12e683fd8e04abd7c2"
-  integrity sha512-BZEYkzRTi91q6ACAEvEMWvJ9mve81Jc6IpeZOiKQ3yDwZLnVlacNT1rJ2DdsYlhPYn8B1aHhPq1feFuq3KRfmA==
+"@fimbul/bifrost@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@fimbul/bifrost/-/bifrost-0.17.0.tgz#f0383ba7e40992e3193dc87e2ddfde2ad62a9cf4"
+  integrity sha512-gVTkJAOef5HtN6LPmrtt5fAUmBywwlgmObsU3FBhPoNeXPLaIl2zywXkJEtvvVLQnaFmtff3x+wIj5lHRCDE3Q==
   dependencies:
-    "@fimbul/ymir" "^0.16.0"
+    "@fimbul/ymir" "^0.17.0"
     get-caller-file "^2.0.0"
     tslib "^1.8.1"
     tsutils "^3.5.0"
 
-"@fimbul/mimir@^0.16.0":
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/@fimbul/mimir/-/mimir-0.16.0.tgz#49d6f1c22ae64518c275939e4a21d8c551803adb"
-  integrity sha512-4X5cu+eGlhLMnY+qTwf4Pd5k4uaWwb7gdoeJ32H03cpeuvQOpWoYG8vmX3TjIq63bJtA5BtNRMFVqWiwoRyL7Q==
+"@fimbul/mimir@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@fimbul/mimir/-/mimir-0.17.0.tgz#8c4c2173ed57080931137fca26eb4f0a94b34d0b"
+  integrity sha512-LNnftuFiLbrZNvA8a69Lv3egvjkOfIzTE/50EQRBaNxz4nG+Cbuz+EcxSP61NfnlZ1OeMS9ciF/bkXwfO+TG3A==
   dependencies:
-    "@fimbul/ymir" "^0.16.0"
+    "@fimbul/ymir" "^0.17.0"
     chalk "^2.3.2"
     debug "^4.0.0"
     tslib "^1.8.1"
     tsutils "^3.5.1"
 
-"@fimbul/valtyr@^0.16.0":
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/@fimbul/valtyr/-/valtyr-0.16.0.tgz#9248fc5c589ff4900864e67da780dd631403b56f"
-  integrity sha512-SU2nK3gBHUqp0FsmRVqFvnz1YDpItI4GM4KUw6cvu2x5YkuJxPyeQvY3zJ0YV1/SvS99a3qGquvc6iDL3H8bCw==
+"@fimbul/valtyr@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@fimbul/valtyr/-/valtyr-0.17.0.tgz#5475f02515656ecb14112b247dc57a533c987fa7"
+  integrity sha512-MnhgI5BLTD5Mj830nyn71ZOWcjBPg9kwN28BQne3SjD5/PO1gY9MUd9K85UcDfxniGDKoEMXjuatJvd7W7953g==
   dependencies:
-    "@fimbul/bifrost" "^0.16.0"
+    "@fimbul/bifrost" "^0.17.0"
     inversify "^5.0.0"
     tslib "^1.8.1"
     tslint "^5.0.0"
     tsutils "^3.5.0"
 
-"@fimbul/wotan@^0.16.0":
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/@fimbul/wotan/-/wotan-0.16.0.tgz#abcd10ef6730a69f0713d006df3b1fd28fad0786"
-  integrity sha512-X8v4cIi4tyRV5tmnBB0PB8brrxov6qdVjTSJD+CQzuF/Kbi3V2Co2O4oglhhDOKSZgRQaK3/zdLZvxL6pFKnjA==
+"@fimbul/wotan@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@fimbul/wotan/-/wotan-0.17.0.tgz#c17d7043bec1b5d4af99d03d633cc8761b045afd"
+  integrity sha512-dEWRskpbRrgU52M8AzvcWCgTqSOueF5HPb7jc/WDTEbR6fWds5jKSrZEJua0cRs3PS6aLS3kY6npcj0yV1A3lg==
   dependencies:
-    "@fimbul/mimir" "^0.16.0"
-    "@fimbul/ymir" "^0.16.0"
+    "@fimbul/mimir" "^0.17.0"
+    "@fimbul/ymir" "^0.17.0"
     bind-decorator "^1.0.11"
     chalk "^2.3.0"
     debug "^4.0.0"
@@ -167,10 +167,10 @@
     reflect-metadata "^0.1.12"
     tslib "^1.8.1"
 
-"@fimbul/ymir@^0.16.0":
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/@fimbul/ymir/-/ymir-0.16.0.tgz#1fa5f3589cb4043114682540d88138b72d93ccd7"
-  integrity sha512-njz2/CalYeIaCFqQ8CkKXL15UL39LNE6MVp9k7Zw/IUfDbDl4FIpySPxUzZfvh/YG7AlMnZFmLnPVfGeSntc4Q==
+"@fimbul/ymir@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@fimbul/ymir/-/ymir-0.17.0.tgz#4f28389b9f804d1cd202e11983af1743488b7815"
+  integrity sha512-xMXM9KTXRLHLVS6dnX1JhHNEkmWHcAVCQ/4+DA1KKwC/AFnGHzu/7QfQttEPgw3xplT+ILf9e3i64jrFwB3JtA==
   dependencies:
     inversify "^5.0.0"
     reflect-metadata "^0.1.12"
